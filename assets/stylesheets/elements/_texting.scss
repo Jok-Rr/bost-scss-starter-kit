@@ -108,14 +108,16 @@ code {
 }
 
 strong,
-b {
+b,
+time {
     font-weight: 700;
 }
 
 em,
 i,
 q,
-cite {
+cite,
+dfn {
     font-style: italic;
 }
 
@@ -152,17 +154,14 @@ small {
     font-size: .7em;
 }
 
-abbr {
+abbr{
     font-style: italic;
-    font-weight: 100;
-    color: #333;
+    font-weight: 300;
+    color: rgb(0, 0, 0) !important;
 }
 
-
-dfn {}
-
-mark {}
-
-var {}
-
-time {}
+var {
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(0, 0, 0) !important;
+}

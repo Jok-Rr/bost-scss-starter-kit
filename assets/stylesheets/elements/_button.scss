@@ -42,14 +42,17 @@ button,
     padding: $padding_button; // when you want an element to have the same padding as your buttons
 }
 
-.btn-small {
-    padding: $padding_button / 2;
+.btn-primary {
+    padding: $padding_button $padding_button ;
+    background-color: $primary_color;
 }
 
-.btn-medium {
+.btn-secondary {
     padding: $padding_button * 1.5;
+    background-color: $secondary_color;
+
 }
 
-.btn-large {
+.btn-alt {
     padding: $padding_button * 2;
 }

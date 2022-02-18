@@ -4,6 +4,7 @@ CONFIG MEDIA STYLES
 Modify only the variables below 
 ----------------------------------
 */
+
 embed,
 iframe,
 object {
@@ -13,9 +14,6 @@ object {
 img {
     height: auto;
     max-width: 100%;
-}
-
-img {
     border-style: none;
 }
 

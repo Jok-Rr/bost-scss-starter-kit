@@ -5,6 +5,34 @@ Modify only the variables below
 ----------------------------------
 */
 
+.txt-bold {
+    font-weight: bold !important;
+}
+
+.txt-uppercase {
+    text-transform: uppercase !important;
+}
+
+.txt-lowercase {
+    text-transform: lowercase !important;
+}
+
+.txt-underline {
+    text-decoration: underline !important;
+}
+
+.txt-centered {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-capitalize {
+    text-transform: capitalize;
+}
+
 h1,
 h2,
 h3,
@@ -67,22 +95,6 @@ h5 {
 .figcaption {
     font-size: 0.75rem;
     /* ¾ of the body text */
-}
-
-.bold {
-    font-weight: bold !important;
-}
-
-.uppercase {
-    text-transform: uppercase !important;
-}
-
-.lowercase {
-    text-transform: lowercase !important;
-}
-
-.underline {
-    text-decoration: underline !important;
 }
 
 kbd {
@@ -154,7 +166,7 @@ small {
     font-size: .7em;
 }
 
-abbr{
+abbr {
     font-style: italic;
     font-weight: 300;
     color: rgb(0, 0, 0) !important;

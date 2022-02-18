@@ -24,6 +24,15 @@ $gray_light: #E4E5E8;
 $black: #020202;
 $white: white;
 
-$primary_color: $yellow;
+$primary_color: $red;
 $secondary_color: $blue;
 
+.bg-primary {
+    background-color: $primary_color;
+    color: $white;
+}
+
+.bg-primary {
+    background-color: $secondary_color;
+    color: $white;
+}
